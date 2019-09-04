@@ -1,0 +1,60 @@
+page-home {
+    #marker {
+        width: 20px;
+        height: 20px;
+        border: 1px solid #088;
+        border-radius: 10px;
+        background-color: #0FF;
+        opacity: 0.5;
+      }
+     
+    
+    .ol-popup {
+      position: absolute;
+      background-color: white;
+      -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+      filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+      padding: 15px;
+      border-radius: 10px;
+      border: 1px solid #cccccc;
+      bottom: 12px;
+      left: -50px;
+      min-width: 200px;
+    }
+
+    .speech {
+      position: relative;
+      bottom: 100px;
+      left: -40px;
+      width: 180px;
+      height: 60px;
+      text-align: center;
+      line-height: 100px;
+      background-color: #fff;
+     
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      -webkit-box-shadow: 2px 2px 4px #888;
+      -moz-box-shadow: 2px 2px 4px #888;
+      box-shadow: 2px 2px 4px #888;
+    }
+    
+    .speech:after {
+      content: ' ';
+      position: absolute;
+      width: 0;
+      height: 0;
+      left: 37px;
+      top: 60px;
+      border: 15px solid;
+      border-color: #fff transparent transparent #fff;
+     
+      box-shadow: 0 16px 10px -17px rgba(0, 0, 0, 0.5);
+    }
+    .data{
+      position: absolute;
+      top:5px;
+      left:45px;
+    }
+}
